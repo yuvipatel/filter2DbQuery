@@ -1,6 +1,6 @@
 {
   "name": "filter2dbquery",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Translates API $filter value to db query.",
   "main": "index.js",
   "engines": {
