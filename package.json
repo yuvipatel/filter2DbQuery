@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuvipatel/filterExpression2DbQuery.git"
+    "url": "git+https://github.com/yuvipatel/filter2DbQuery.git"
   },
   "keywords": [
     "node",
