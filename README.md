@@ -1,4 +1,4 @@
-# filterExpression2DbQuery
+# filter2DbQuery
 Translates filter expression suggested in [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md) into db queries. Pelase refer section [9.7.1](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#97-filtering) for details.
 This module currently supports translation of filter operations to mongoDb query only. Future version will have support 
 for SQL too.
@@ -7,7 +7,6 @@ for SQL too.
 
 Using npm:
 ```shell
-$ npm i -g npm
 $ npm i --save filter2dbquery
 ```
 
