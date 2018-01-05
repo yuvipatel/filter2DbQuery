@@ -1,0 +1,33 @@
+{
+  "name": "filter2dbquery",
+  "version": "0.0.1",
+  "description": "Translates filter expression suggested in microsoft rest api guidelines into db queries. Pelase refer section 9.7.1 of api-guidelines by Microsoft.This module currently supports translation to mongoDb queries.",
+  "main": "index.js",
+  "engines": {
+    "node": "6.11.4"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvipatel/filterExpression2DbQuery.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "api",
+    "guidelines"
+  ],
+  "author": "Yuvraj Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuvipatel/filterExpression2DbQuery/issues"
+  },
+  "homepage": "https://github.com/yuvipatel/filterExpression2DbQuery#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.3"
+  }
+}
